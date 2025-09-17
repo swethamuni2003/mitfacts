@@ -1,7 +1,7 @@
 var utils  = require('course-utilities');
 var mit = utils.load('./mit.js', 'mit');
 
-describe('MIT', () => {
+describe('MIT', () => {1
 
     test('Object properties present', () => {
         expect(mit).toHaveProperty('city');
